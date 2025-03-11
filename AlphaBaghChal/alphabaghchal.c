@@ -1,3 +1,33 @@
+/*****************************************************************************
+ *  File: alphabaghchal.c
+ *  Author: Nirajan Dhakal
+ *  Date: March 12, 2025
+ *  License: MIT License
+ *
+ *  Description:
+ *  This C file implements the main logic for the Baghchal game, incorporating an
+ *  AlphaZero-like neural network architecture and Monte Carlo Tree Search (MCTS)
+ *  for intelligent move selection. The neural network is trained using self-play
+ *  with random games as a starting point. This version leverages CUDA kernels for
+ *  GPU accelerated neural network computations, including forward and backpropagation.
+ *  It includes functions for game initialization, move validation, display, and
+ *  neural network training and interaction. MCTS is used for action selection during
+ *  both random game training and human vs. computer gameplay. This implementation
+ *  also tracks and learns from game values.
+ *
+ *  Fair Use Notice:
+ *  The code provided in this file is intended for educational and
+ *  non-commercial use. You are free to use, modify, and distribute this
+ *  code, provided you retain the above copyright notice and this
+ *  fair use notice. Any usage for commercial purposes requires
+ *  explicit permission from the original author.
+ *
+ *  Note: This implementation is a simplified representation and may
+ *        not be suitable for production or large-scale applications.
+ *
+ *****************************************************************************/
+
+
 #include "alphabaghchal.h"
 #include "alphabaghchal_cuda.h"
 #include "alphabaghchal_mcts.h"

@@ -1,3 +1,30 @@
+/*****************************************************************************
+ *  File: alphabaghchal_mcts.c
+ *  Author: Nirajan Dhakal
+ *  Date: March 12, 2025
+ *  License: MIT License
+ *
+ *  Description:
+ *  This C file implements a Monte Carlo Tree Search (MCTS) algorithm for the
+ *  Baghchal game. It includes functions for creating and managing MCTS nodes,
+ *  selecting moves based on Upper Confidence Bound (UCB) values, expanding nodes,
+ *  simulating game rollouts, and backpropagating the results. This MCTS is
+ *  designed to be integrated with a neural network to provide informed move
+ *  selections, incorporating value estimates and policy probabilities in the
+ *  move evaluation process. It uses a tree-based search to decide optimal moves.
+ *
+ *  Fair Use Notice:
+ *  The code provided in this file is intended for educational and
+ *  non-commercial use. You are free to use, modify, and distribute this
+ *  code, provided you retain the above copyright notice and this
+ *  fair use notice. Any usage for commercial purposes requires
+ *  explicit permission from the original author.
+ *
+ *  Note: This implementation is a simplified representation and may
+ *        not be suitable for production or large-scale applications.
+ *
+ *****************************************************************************/
+
 #include "alphabaghchal_mcts.h"
 #include <stdlib.h>
 #include <math.h>

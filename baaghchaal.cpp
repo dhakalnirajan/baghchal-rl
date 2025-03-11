@@ -1,3 +1,30 @@
+/*****************************************************************************
+ *  File: baaghchaal.cpp
+ *  Author: Nirajan Dhakal
+ *  Date: March 12, 2025
+ *  License: MIT License
+ *
+ *  Description:
+ *  This C++ file implements a simplified version of the Baghchal game, also known as
+ *  Goat and Tigers, using a neural network to control the Tiger's moves. The game
+ *  allows for both computer vs. random play and human vs. computer gameplay. This
+ *  implementation includes features such as a neural network with backpropagation
+ *  training, ASCII art board display, and logic for move validation and game-over
+ *  conditions. The neural network is trained through self-play against a random
+ *  move selection.
+ *
+ *  Fair Use Notice:
+ *  The code provided in this file is intended for educational and
+ *  non-commercial use. You are free to use, modify, and distribute this
+ *  code, provided you retain the above copyright notice and this
+ *  fair use notice. Any usage for commercial purposes requires
+ *  explicit permission from the original author.
+ *
+ *  Note: This implementation is a simplified representation and may
+ *        not be suitable for production or large-scale applications.
+ *
+ *****************************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -6,7 +33,7 @@
 #include <math.h>
 
 // --- 1. Game Specific Constants ---
-#define BOARD_SIZE 25    // Number of intersections
+#define BOARD_SIZE 25    // Number  of intersections
 #define TIGER_COUNT 4
 #define GOAT_COUNT 20
 

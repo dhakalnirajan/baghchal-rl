@@ -1,3 +1,31 @@
+/*****************************************************************************
+ *  File: alphabaghchal.h
+ *  Author: Nirajan Dhakal
+ *  Date: March 12, 2025
+ *  License: MIT License
+ *
+ *  Description:
+ *  This header file defines the data structures, constants, and function
+ *  prototypes for the Baghchal game implementation using an AlphaZero-like
+ *  approach. It includes definitions for the game state, neural network structure,
+ *  MCTS parameters, and function declarations for various operations including
+ *  neural network initialization, game management, forward passes, backpropagation,
+ *  and MCTS search. This file provides the necessary interfaces for the
+ *  implementation, making it a central component of the project.
+ *
+ *  Fair Use Notice:
+ *  The code provided in this file is intended for educational and
+ *  non-commercial use. You are free to use, modify, and distribute this
+ *  code, provided you retain the above copyright notice and this
+ *  fair use notice. Any usage for commercial purposes requires
+ *  explicit permission from the original author.
+ *
+ *  Note: This implementation is a simplified representation and may
+ *        not be suitable for production or large-scale applications.
+ *
+ *****************************************************************************/
+
+
 #ifndef ALPHABAGHCHAL_H
 #define ALPHABAGHCHAL_H
 

@@ -1,3 +1,30 @@
+/*****************************************************************************
+ *  File: main.c
+ *  Author: Nirajan Dhakal
+ *  Date: March 12, 2025
+ *  License: MIT License
+ *
+ *  Description:
+ *  This C file implements the main logic for a simplified Baghchal game, also known
+ *  as Goat and Tigers. This version integrates with CUDA kernels for accelerated
+ *  neural network computations. It includes functions for game initialization,
+ *  display, move validation, neural network forward and backpropagation, and
+ *  training against random games. This implementation also handles the game play
+ *  against a human player. It leverages CUDA for GPU acceleration, performing
+ *  forward passes and backpropagation training on the GPU.
+ *
+ *  Fair Use Notice:
+ *  The code provided in this file is intended for educational and
+ *  non-commercial use. You are free to use, modify, and distribute this
+ *  code, provided you retain the above copyright notice and this
+ *  fair use notice. Any usage for commercial purposes requires
+ *  explicit permission from the original author.
+ *
+ *  Note: This implementation is a simplified representation and may
+ *        not be suitable for production or large-scale applications.
+ *
+ *****************************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

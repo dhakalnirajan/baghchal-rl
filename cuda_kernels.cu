@@ -1,3 +1,32 @@
+/*****************************************************************************
+ *  File: cuda_kernels.cu
+ *  Author: Nirajan Dhakal
+ *  Date: March 12, 2025
+ *  License: MIT License
+ *
+ *  Description:
+ *  This CUDA C++ file defines kernels for performing forward and backpropagation
+ *  operations for a neural network, specifically tailored for a Baghchal game.
+ *  The kernels leverage CUDA's parallel processing capabilities to accelerate
+ *  these computationally intensive operations. This includes kernels for
+ *  calculating the output of the neural network (forward pass) and adjusting
+ *  the weights and biases based on the error (backpropagation). These kernels
+ *  are designed to be called from the host (CPU) code, with data transfers
+ *  managed in the host application.
+ *
+ *  Fair Use Notice:
+ *  The code provided in this file is intended for educational and
+ *  non-commercial use. You are free to use, modify, and distribute this
+ *  code, provided you retain the above copyright notice and this
+ *  fair use notice. Any usage for commercial purposes requires
+ *  explicit permission from the original author.
+ *
+ *  Note: This implementation is a simplified representation and may
+ *        not be suitable for production or large-scale applications.
+ *
+ *****************************************************************************/
+ 
+
 #include <cuda.h>
 #include <cuda_runtime.h>
 #include <stdio.h>
